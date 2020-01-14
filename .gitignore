@@ -1,0 +1,30 @@
+##############################################################################
+# keil5 STM32 C8T6 Project gitignore 
+#
+
+### NOT INCLUDE FILES ############
+
+### keil5 mdk project folder
+project/mdk/DebugConfig
+project/mdk/Listings
+project/mdk/Objects
+project/mdk/bin/
+
+## keil5 mdk project files
+*.uvguix.*
+EventRecorderStub.scvd
+JLinkLog.txt
+JLinkSettings.ini
+
+#### vscode 
+.vscode/
+
+
+### !! INCLUDE FILES ############
+!*.c 
+!*.h
+!/user
+!CMakeLists.txt
+
+
+
